@@ -42,7 +42,7 @@ if (!file.exists(file_data)){
 }  
 # Unziping file 
 if (!file.exists("UnZip_Dataset")) { 
-  unzip(file_data)
+  unzip(file_data)}
 # Giving names for data frames  
 features_name<-read.delim ("UCI HAR Dataset/features.txt", header = FALSE, col.names = 'features')
 # Transform feature_name to vector to rename train_feature columns
