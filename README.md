@@ -13,17 +13,4 @@
 # activity and each subject.
 #
 ###################################################################
-# Data for the project:
-# https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-# 
-# install.packages("dplyr")
-library(dplyr)
-# 
-# Attaching package: 'dplyr'
-# The following objects are masked from 'package:stats':
 #
-#     filter, lag
-# The following objects are masked from 'package:base':
-# 
-#     intersect, setdiff, setequal, union
-###################################################################
